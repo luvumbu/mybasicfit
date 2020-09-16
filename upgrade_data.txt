@@ -1,0 +1,34 @@
+birth_date
+card_number_s
+compensation_choice
+compensation_choice_source
+contract_end_date_g
+conversion_source_s // type de souscription
+createdAt // création de la carte basic
+current_balance_s
+email
+first_name
+last_name
+gender_s //sex 
+home_club
+home_club_id
+id_g
+is_friends_allowed // type de contrat 
+join_date_g // date création 
+labels_country // pays 
+language // langue 
+mailing_city
+mailing_country 
+mailing_house_number
+mailing_street 
+member_account_s 
+membership_id_g
+membership_name_g 
+membership_number_s 
+platform+browser
+platform+platform
+platform+source
+platform+os
+poste_code
+updatedAt
+
