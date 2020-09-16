@@ -113,9 +113,9 @@ $(function() {
                         // fin du telechargement
                        
 
-                        // setTimeout(function(){ 
-                        //     document.location.reload(true);
-                        // }, 800);
+                        setTimeout(function(){ 
+                            document.location.reload(true);
+                        }, 1000);
                         
 
 
