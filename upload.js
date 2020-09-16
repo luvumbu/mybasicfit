@@ -23,7 +23,28 @@ class Information {
 	}
 }
 
+var clicl = false;
 
+function myname() {
+    if (clicl == false) {
+        var ok = new Information("php.php"); // création de la classe 
+        ok.add("login", "root"); // ajout de l'information pour lenvoi 
+        ok.add("password", "root"); // ajout d'une deuxieme information denvoi  
+        console.log(ok.info()); // demande l'information dans le tableau
+        ok.push(); // envoie l'information au code pkp 
+        clicl = true;
+    } else {
+        setTimeout(function() {
+            clicl = false;
+
+        }, 10000);
+    }
+}
+
+function disip() {
+    document.getElementById("submit-button").style.display = "none";
+    document.getElementById("encours").style.display = "block";
+}
 
 
 
